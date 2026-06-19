@@ -1,0 +1,11 @@
+[package]
+name = "splice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+indicatif = "0.17"
+console = "0.15"
+anyhow = "1.0"
+dialoguer = "0.11" # Add this for interactive prompts
